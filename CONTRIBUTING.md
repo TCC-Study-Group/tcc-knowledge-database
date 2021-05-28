@@ -1,4 +1,8 @@
 # TCC Knowledge Database への貢献
+## 提出に関する指針
+### Issueの提出
+[Issue Template](https://github.com/TCC-Study-Group/tcc-knowledge-database/issues/new/choose)に従ってください。
+
 ## コミットメッセージの形式
 _これは[Angularのコミットメッセージ形式](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)、及び[Angular.jsのコミットガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)を参考に制定しています。_
 
