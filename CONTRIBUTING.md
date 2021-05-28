@@ -23,7 +23,7 @@
     ```
     git push origin my-fix-branch
     ```
-8. GitHub上で`tcc-knowledge-database:main`に対するPRを作成する。
+8. GitHub上で`tcc-knowledge-database:develop`に対するPRを作成する。
 
 #### コミットメッセージの編集
 コミットメッセージが規約に従っていない場合は修正をする必要があります。
