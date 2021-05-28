@@ -41,6 +41,29 @@
     git push --force-with-lease
     ```
 
+#### PRがMergeされたら
+PRがMergeされた後はブランチを削除し、主流(upstream)のリポジトリからPullが行なえます。
+
+- GitHubのWeb上で、またはコマンドでリモートリポジトリのブランチを削除する。
+    ```
+    git push origin --delete my-fix-branch
+    ```
+
+- mainブランチに変更する。
+    ```
+    git switch main -f
+    ```
+
+- ローカルのブランチを削除する。
+    ```
+    git branch -D my-fix-branch
+    ```
+
+- 最新のupstreamからmainブランチを更新する。
+    ```
+    git pull --ff upstream main
+    ```
+
 ## コミットメッセージの形式
 _これは[Angularのコミットメッセージ形式](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)、及び[Angular.jsのコミットガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)を参考に制定しています。_
 
