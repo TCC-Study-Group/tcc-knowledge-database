@@ -3,6 +3,28 @@
 ### Issueの提出
 [Issue Template](https://github.com/TCC-Study-Group/tcc-knowledge-database/issues/new/choose)に従ってください。
 
+### プルリクエストの提出
+プルリクエスト(PR)を提出する際は以下の指針を考慮してください。
+
+1. このリポジトリを[Fork](https://docs.github.com/ja/github/getting-started-with-github/quickstart/fork-a-repo)する。
+2. Forkしたリポジトリで以下のコマンドを使用してブランチを作る。
+    ```
+    git checkout -b my-fix-branch master
+    ```
+3. テストケースを作成する。
+4. 変更を行う。
+5. すべてのテストケースが通過するかを確認する。
+6. [コミットメッセージの規約](#コミットメッセージの形式)に従ってコミットメッセージを記述し、以下のコマンドでコミットを行う。
+    ```
+    git commit --all
+    ```
+    注記: コマンドの`-a`オプションは、編集したファイルの`add`と`rm`を自動で行います。
+7. 以下のコマンドでGitHubのあなたのリポジトリにPushする。
+    ```
+    git push origin my-fix-branch
+    ```
+8. GitHub上で`tcc-knowledge-database:main`に対するPRを作成する。
+
 ## コミットメッセージの形式
 _これは[Angularのコミットメッセージ形式](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)、及び[Angular.jsのコミットガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)を参考に制定しています。_
 
