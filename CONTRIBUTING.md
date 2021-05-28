@@ -25,6 +25,22 @@
     ```
 8. GitHub上で`tcc-knowledge-database:main`に対するPRを作成する。
 
+#### コミットメッセージの編集
+コミットメッセージが規約に従っていない場合は修正をする必要があります。
+
+1. ブランチを変更する。
+    ```
+    git switch my-fix-branch
+    ```
+2. 直前のコミットを修正する。
+    ```
+    git commit --amend
+    ```
+3. GitHubのあなたのリポジトリにPushする。
+    ```
+    git push --force-with-lease
+    ```
+
 ## コミットメッセージの形式
 _これは[Angularのコミットメッセージ形式](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)、及び[Angular.jsのコミットガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)を参考に制定しています。_
 
